@@ -3,6 +3,7 @@ import NavBar from "./components/navbar";
 import Hero from "./components/Hero";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
     const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
             <Hero />
             <Education />
             <Skills />
+            <Projects />
         </div>
     );
 }

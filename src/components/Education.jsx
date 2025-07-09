@@ -5,7 +5,7 @@ import { Calendar, MapPin, GraduationCap } from "lucide-react";
 
 export default function Education() {
     return (
-        <section className="mx-[20%] py-6">
+        <section className="mx-[20%] py-6 border-b border-accent-foreground">
             <div className="mb-5">
                 <h1 className="text-2xl font-bold text-white mb-2 flex items-center gap-2">
                     <GraduationCap className="w-7 h-7" />

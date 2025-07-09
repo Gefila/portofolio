@@ -2,12 +2,12 @@ import fotoProfil from "../assets/images/foto_profil.png";
 
 export default function Hero() {
     return (
-        <section className="flex mx-[20%] py-6 items-start border-b border-gray-300 shadow-lg max-md:flex-col max-md:ite">
+        <section className="flex mx-[20%] py-6 items-start border-b border-accent-foreground shadow-lg max-md:flex-col max-md:items-center">
             <div className="flex justify-center items-center max-md:mb-4">
                 <img
                     src={fotoProfil}
                     alt="Hero Image"
-                    className="rounded-2xl w-[60%] aspect-square"
+                    className="rounded-2xl w-[60%] aspect-square grayscale hover:grayscale-0 transition-all duration-300 border-2 border-accent-foreground"
                 />
             </div>
             <div className="text-center flex flex-col">
