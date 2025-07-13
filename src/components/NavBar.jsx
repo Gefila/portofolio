@@ -7,7 +7,6 @@ export default function NavBar() {
                     <a href="#home" className="text-gray-300 hover:text-white">Home</a>
                     <a href="#about" className="text-gray-300 hover:text-white">About</a>
                     <a href="#projects" className="text-gray-300 hover:text-white">Projects</a>
-                    <a href="#contact" className="text-gray-300 hover:text-white">Contact</a>
                 </div>
             </div>
         </nav>
