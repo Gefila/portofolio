@@ -4,34 +4,54 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
-            title: "E-Commerce Platform",
+            title: "Kuesioner E-Wallet",
             description:
-                "Full-stack web application built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.",
-            technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+                "Platform kuesioner web untuk mengumpulkan data penggunaan e-wallet, dengan perbandingan AHP otomatis (Level 1–3), pemeriksaan konsistensi (CR > 0.1), dan integrasi Discord webhook untuk monitoring.",
+            technologies: ["React.js", "Tailwind CSS", "Shadcn UI", "Discord Webhook"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
             github: "#",
         },
         {
             id: 2,
-            title: "Task Management App",
+            title: "QuizKuy",
             description:
-                "Responsive task management application with drag-and-drop functionality, real-time updates, and team collaboration features.",
-            technologies: ["React", "Firebase", "Tailwind CSS", "DnD Kit"],
+                "Website kuis interaktif dengan timer real-time, penilaian otomatis, dan pelacakan riwayat kuis. Dirancang responsif untuk pengalaman pengguna yang nyaman.",
+            technologies: ["React.js", "Tailwind CSS", "DaisyUI"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
             github: "#",
         },
         {
             id: 3,
-            title: "Weather Dashboard",
+            title: "MeowMart",
             description:
-                "Interactive weather dashboard with location-based forecasts, data visualization, and offline functionality using PWA technologies.",
-            technologies: ["Vue.js", "Chart.js", "PWA", "Weather API"],
+                "Platform e-commerce untuk perlengkapan hewan peliharaa dengan autentikasi pengguna, peran admin/pelanggan, manajemen produk & kategori (CRUD), sistem diskon, dan integrasi payment gateway via Midtrans",
+            technologies: ["CodeIgniter 3", "Bootstrap", "jQuery", "Midtrans API"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
             github: "#",
         },
+        {
+            id: 4,
+            title: "BangkApp",
+            description:
+                "Aplikasi Android informasi wisata Bangka Belitung, mencakup tempat kuliner, rental mobil, dan hotel. Fokus pada tampilan yang bersih, performa optimal, dan pengalaman pengguna yang intuitif.",
+            technologies: ["Kotlin"],
+            image: "https://placehold.co/600x400",
+            liveDemo: "#",
+            github: "#",
+        },
+        {
+            id: 5,
+            title: "Gefila Computer",
+            description:
+                "Aplikasi Android toko online produk komputer dengan fitur login/registrasi, katalog produk (CRUD), pencarian, keranjang belanja, dan forum diskusi produk.",
+            technologies: ["Kotlin", "Express.js", "MySQL"],
+            image: "https://placehold.co/600x400",
+            liveDemo: "#",
+            github: "#",
+        }
         
     ];
 
@@ -58,12 +78,12 @@ export default function Projects() {
                             <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-colors duration-300"></div>
                         </div>
 
-                        <div className="p-6">
+                        <div className="p-6 flex flex-col ">
                             <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
                                 {project.title}
                             </h3>
 
-                            <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+                            <p className="text-gray-300 text-sm mb-4 leading-relaxed text-justify">
                                 {project.description}
                             </p>
 
