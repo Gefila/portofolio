@@ -8,9 +8,9 @@ export default function Projects() {
             description:
                 "Platform kuesioner web untuk mengumpulkan data penggunaan e-wallet, dengan perbandingan AHP otomatis (Level 1–3), pemeriksaan konsistensi (CR > 0.1), dan integrasi Discord webhook untuk monitoring.",
             technologies: ["React.js", "Tailwind CSS", "Shadcn UI", "Discord Webhook"],
-            image: "https://placehold.co/600x400",
-            liveDemo: "#",
-            github: "#",
+            image: "https://private-user-images.githubusercontent.com/106391467/455508527-3e140d55-a315-4e9e-b1c5-5aa0fb4c65d5.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMjExMTgsIm5iZiI6MTc1MzMyMDgxOCwicGF0aCI6Ii8xMDYzOTE0NjcvNDU1NTA4NTI3LTNlMTQwZDU1LWEzMTUtNGU5ZS1iMWM1LTVhYTBmYjRjNjVkNS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwMTMzMzhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZTgwZGJkMTliYjgwNGY2Y2U1NTIwYjViYjVlNGQxNWU3ZWJlZjNiNjhjZjM2MTVhMTRkNzViNjU0YjU3MDY2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bZy4B1xZZlkQFGRvTX8DG_PmRnnNYL5OUmebq0NHikg",
+            liveDemo: "https://kuesioner-e-wallet.vercel.app/",
+            github: "https://github.com/Gefila/kuesioner-e-wallet",
         },
         {
             id: 2,
@@ -18,9 +18,9 @@ export default function Projects() {
             description:
                 "Website kuis interaktif dengan timer real-time, penilaian otomatis, dan pelacakan riwayat kuis. Dirancang responsif untuk pengalaman pengguna yang nyaman.",
             technologies: ["React.js", "Tailwind CSS", "DaisyUI"],
-            image: "https://placehold.co/600x400",
-            liveDemo: "#",
-            github: "#",
+            image: "https://private-user-images.githubusercontent.com/106391467/455510003-54c0a67b-2488-448f-b717-b9302df1bc02.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzMjE1OTQsIm5iZiI6MTc1MzMyMTI5NCwicGF0aCI6Ii8xMDYzOTE0NjcvNDU1NTEwMDAzLTU0YzBhNjdiLTI0ODgtNDQ4Zi1iNzE3LWI5MzAyZGYxYmMwMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNzI0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDcyNFQwMTQxMzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03NDQ3YzI5ZDI3MjQ1OWY4NWEzZGQ4MzJmYTYwZjRkZmIyNDc1MGY4NWJmMTI3YzQzMDBlYzIzZjNhOWMwZDBkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZXHRLxniEzf1V-3zr1VDptlWMWyBWDwU0assXvWbmdU",
+            liveDemo: "https://quiz-kuy.netlify.app/",
+            github: "https://github.com/Gefila/quiz",
         },
         {
             id: 3,
@@ -30,7 +30,7 @@ export default function Projects() {
             technologies: ["CodeIgniter 3", "Bootstrap", "jQuery", "Midtrans API"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
-            github: "#",
+            github: "https://github.com/Gefila/MeowMart",
         },
         {
             id: 4,
@@ -40,7 +40,7 @@ export default function Projects() {
             technologies: ["Kotlin"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
-            github: "#",
+            github: "https://github.com/Gefila/BangkApp",
         },
         {
             id: 5,
@@ -50,7 +50,7 @@ export default function Projects() {
             technologies: ["Kotlin", "Express.js", "MySQL"],
             image: "https://placehold.co/600x400",
             liveDemo: "#",
-            github: "#",
+            github: "https://github.com/Gefila/gefila-computer-mobile",
         }
         
     ];
@@ -102,12 +102,14 @@ export default function Projects() {
                                 <a
                                     href={project.liveDemo}
                                     className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-4 rounded-lg font-medium transition-colors duration-200"
+                                    target="_blank"
                                 >
                                     Live Demo
                                 </a>
                                 <a
                                     href={project.github}
                                     className="flex-1 bg-gray-700 hover:bg-gray-600 text-white text-center py-2 px-4 rounded-lg font-medium transition-colors duration-200"
+                                    target="_blank"
                                 >
                                     GitHub
                                 </a>
